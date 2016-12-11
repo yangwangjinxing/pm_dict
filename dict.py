@@ -3,9 +3,11 @@ import dbi
 import sys
 import re
 doc="""Usage:
-python3 """+__name__+""" -h         显示本条消息
 python3 """+__name__+""" [word]     查词
-python3 """+__name__+""" -f [file]  导入词典
+python3 """+__name__+""" -h         显示本条消息
+python3 """+__name__+""" -f [file]  导入txt
+python3 """+__name__+""" -j [file]  导入json
+python3 """+__name__+""" -o [file]  导出json
 """
 if __name__=='__main__':
     d=dbi.DataBase()
