@@ -5,9 +5,11 @@
 
 ## Usage
 
-    python3 dict.py -h          帮助信息
-    pyhton3 dict.py -f [file]   导入数据
     python3 dict.py [word]      查词
+    python3 dict.py -h          帮助信息
+    pyhton3 dict.py -f [file]   导入txt
+    python3 dict.py -j [file]   导入json
+    python3 dict.py -o [file]   导出json
 
 ## 数据格式
 
